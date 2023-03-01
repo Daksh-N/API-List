@@ -14,6 +14,7 @@
 		B6772D0529AEEA69009BC82A /* API_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6772D0429AEEA69009BC82A /* API_ListTests.swift */; };
 		B6772D0F29AEEA69009BC82A /* API_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6772D0E29AEEA69009BC82A /* API_ListUITests.swift */; };
 		B6772D1129AEEA69009BC82A /* API_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6772D1029AEEA69009BC82A /* API_ListUITestsLaunchTests.swift */; };
+		B6772D1E29AEF2B4009BC82A /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6772D1D29AEF2B4009BC82A /* EntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B6772D0A29AEEA69009BC82A /* API ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6772D0E29AEEA69009BC82A /* API_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_ListUITests.swift; sourceTree = "<group>"; };
 		B6772D1029AEEA69009BC82A /* API_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6772D1D29AEF2B4009BC82A /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		B6772CE729AEEA67009BC82A = {
 			isa = PBXGroup;
 			children = (
+				B6772D1D29AEF2B4009BC82A /* EntryView.swift */,
 				B6772CF229AEEA67009BC82A /* API List */,
 				B6772D0329AEEA69009BC82A /* API ListTests */,
 				B6772D0D29AEEA69009BC82A /* API ListUITests */,
@@ -259,6 +262,7 @@
 			files = (
 				B6772CF629AEEA67009BC82A /* ContentView.swift in Sources */,
 				B6772CF429AEEA67009BC82A /* API_ListApp.swift in Sources */,
+				B6772D1E29AEF2B4009BC82A /* EntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
